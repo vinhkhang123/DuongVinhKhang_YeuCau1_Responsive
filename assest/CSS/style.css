@@ -1,0 +1,963 @@
+* {
+    box-sizing: border-box;
+    margin:  0px;
+    padding: 0px;
+    font-family: 'inter';  
+}
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.grid.wide {  
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.row.no-gutters .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+.c-0 {
+    display: none;
+}
+.c-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+.c-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.c-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.c-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+.c-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.c-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.c-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+.c-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.c-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.c-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+.c-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}/* ipad--------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 46.25em) and (max-width:85.375em) {
+    .wide {
+        width: 100%; 
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+    .head {
+        width: 100%  !important;
+        height:  500px !important;
+    }
+    .menu {
+        margin-top: 5%;
+        width: 100%;
+        flex-wrap:unset !important;
+        position:absolute !important;
+        height: 50px;
+    }
+    .header {
+        height: 80% !important ;
+       margin-top: 6% !important;
+       margin-left:7% !important;
+    }
+    .logo {
+        margin-left: 2% !important;
+       }
+    .bars {
+        margin-left:79% !important;
+    }
+    .logo img {
+        width: 50px !important;
+    }
+    .bars img {
+        width: 15px !important;
+    }
+    .empty {
+        height: 400px !important; 
+     }
+    .left {
+        margin-top: 25px !important;
+        width: 50px !important;
+        height: 170px !important;
+        font-size:11px  !important;
+    }
+    .left p {
+        margin: 0 !important;
+    }
+    .right {
+        width: 50px !important;
+        height: 160px !important;
+        font-size:11px  !important;
+        margin-top: 25px !important;
+    }
+    .right p {
+        margin: 0 !important;
+    }
+    .Tech {
+        margin: 9px 15px 0px 15px !important;
+        padding: 0px !important;
+        width: 50px !important;
+        height: 160px !important;  
+        font-size:11px  !important;
+    }
+    .Tech p {
+        margin: 0px!important;
+    }
+    .c-4 {
+        flex: 0 0 30.33333%;
+         max-width: 32.33333%;
+    }
+    .iconHead {
+        font-size: 20px !important;
+    }
+    .modern {
+        margin-top: 5% !important;
+        max-width: 100% !important;
+        font-size: 11px !important;
+    }
+    .modern h1 {
+        font-size: 12px !important;
+    }
+    .modern h5 {
+        margin-top: 3% !important;
+    }
+    .OverView {
+        margin-top: 20px !important;
+        font-size: 11px !important;
+        justify-content: space-around !important;
+    }
+    .numPlus {
+        font-size: 20px !important;
+    }
+    .weHelp {
+        font-size: 11px !important;
+    }
+    .redefine {
+        margin-top: 50px !important;
+    }
+    .redBut {
+        max-width: 50% !important;
+        margin: 0 !important;
+        font-size: 18px !important;
+    }
+    .butLong {
+        width: 125px !important;
+        height: 51px !important;
+        margin: 20px 0 !important;
+        padding: 6px 24px !important;
+        font-size: 12px !important;
+    }
+    .logoMul {
+        margin: 30px 0px !important;
+        padding: 0px !important;
+    }
+    .logoMul img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .newTech img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .newTechChi {
+        margin-left: 0 !important;
+        font-size: 11px !important;
+    }
+    .asianman {
+        margin: 0 !important;
+    }
+    .getLeft {
+        margin-left: -3 !important;
+    }
+    .buttonMid {
+        max-width: 120px !important;
+    }
+    .notS {
+        justify-content: space-around !important;
+        font-size: 11px !important;
+    }
+    .leftNot {
+        max-width: 120px !important;
+         margin-right: 0 !important;
+         margin-bottom: 24px !important;
+    }
+    .buttonMid {
+        margin: 0px 20px !important;
+    }
+    .rightNot {
+        max-width: 120px !important;
+        margin-left: 0 !important;
+        margin-bottom: 24px !important;
+    }
+    .lastest {
+        margin: 67px 0px 40px 0px !important;
+    }
+    .ButtonCi {
+        width: 37px !important;
+        height: 37px !important;
+    }
+    .lastLeft {
+        width: 90% !important;
+        height: 90% !important;
+    }
+    .lastMid  {
+        width: 90% !important;
+        height: 90% !important;
+    }
+    .lastRight  {
+        width: 90% !important;
+        height: 90% !important;   
+    }
+    .arrow1 {
+        width: 29px !important;
+    }
+   .data {
+        padding-left: 20px !important;
+        height: 350px !important; 
+   }
+   .dataLeft {
+        font-size: 11px;
+   }
+   .submita {
+         margin: 2% 0% !important;
+    }
+    .stay  {
+        margin-left: 2% !important;
+        font-size: 15px;
+        max-width: 50%;
+    }
+    .emailSub {
+        max-width: 48% !important;
+        margin-left: 0 !important;
+    }
+    .inputBut {
+        width: 300px !important;
+        height: 51px !important;
+    }
+    .butWrap {
+        top: -38% !important;
+    }
+}/*------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 46.1875em) {
+    .wide {
+        width: 100%;
+        
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+    .head {
+        width: 100%  !important;
+        height:  250px !important;
+    }
+    .menu {
+        width: 100%;
+        flex-wrap:unset !important;
+        position:absolute !important;
+        height: 50px;
+    }
+    .header {
+        height: 80% !important ;
+       margin-top: 6% !important;
+       margin-left:4% !important;
+    }
+    .logo {
+        margin-left: 2% !important;
+       }
+    .bars {
+        margin-left: 65% !important;
+    }
+    .logo img {
+        width: 50px !important;
+    }
+    .bars img {
+        width: 15px !important;
+    }
+    .empty {
+        height: 180px !important;
+       
+     }
+    .left {
+        margin-top: 25px !important;
+        width: 50px !important;
+        height: 150px !important;
+        font-size:7px  !important;
+        line-height: 1.2 !important;
+    }
+    .left p {
+        margin: 0 !important;
+    }
+    .right {
+        width: 50px !important;
+        height: 150px !important;
+        font-size:7px  !important;
+        margin-top: 25px !important;
+        padding: 14px !important;
+        line-height: 1.2 !important;
+    }
+    .right p {
+        margin: 0 !important;
+    }
+    .Tech {
+        margin: 9px 15px 0px 15px !important;
+        padding: 8px !important;
+        font-size: 10px !important;
+        width: 50px !important;
+        height: 150px !important;
+        font-size:7px  !important;
+        line-height: 1.2 !important;
+    }
+    .Tech p {
+        margin: 0 !important;
+    }
+    .c-4 {
+        flex: 0 0 28.33333%;
+         max-width: 32.33333%;
+    }
+    .iconHead {
+        font-size: 20px !important;
+    }
+    .modern {
+        margin-top: 0px !important;
+        max-width: 100% !important;
+        font-size: 8px !important;
+    }
+    .modern h1 {
+        font-size: 8px !important;
+    }
+    .modern h5 {
+        margin-top: 3% !important;
+    }
+    .OverView {
+        margin-top: 20px !important;
+        font-size: 7px !important;
+        justify-content: space-around !important;
+    }
+    .numPlus {
+        font-size: 20px !important;
+    }
+    .weHelp {
+        font-size: 7px !important;
+    }
+    .redefine {
+        margin-top: 50px !important;
+    }
+    .redBut {
+        max-width: 50% !important;
+        margin: 0 !important;
+        font-size: 10px !important;
+    }
+    .butLong {
+        width: 68px !important;
+        height: 24px !important;
+        margin: 0 !important;
+        padding: 4px 20px !important;
+        font-size: 7px !important;
+    }
+    .logoMul {
+        margin: 30px 0px !important;
+        padding: 0px !important;
+    }
+    .logoMul img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .newTech {
+        margin-bottom: 5% !important;
+    }
+    .newTech img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .newTechChi {
+        margin-left: 0 !important;
+        font-size: 9px !important;
+    }
+    .asianman {
+        margin: 0 !important;
+    }
+    .getLeft {
+        margin-left: -3 !important;
+    }
+    .buttonMid {
+        max-width: 120px !important;
+       
+    }
+    .notS {
+        justify-content: space-around !important;
+        font-size: 7px !important;
+    }
+    .leftNot {
+        max-width: 120px !important;
+         margin-right: 0 !important;
+         padding-bottom: 42px;
+         height: 100% !important;
+    }
+    .midNot {
+        height: 100% !important;
+        padding-bottom: 50px !important;
+    }
+    .buttonMid {
+        margin: 0px 2% !important;
+        height: 100% !important;
+    }
+    .rightNot {
+        max-width: 120px !important;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 42px !important;
+        height: 100% !important;
+    }
+    .ButtonCi {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .laste {
+        margin-top: 5% !important;
+    }
+    .lastest {
+        margin: 0px 2px!important;
+    }
+    .lastLeft {
+        margin-left: 2% !important;
+    }
+    .lastRight img {
+        width: 92% !important;
+        margin:  0 !important;
+    }
+    .lastMid img {
+        margin: 0px 5px 0px 3px !important;
+    }
+    .arrow1 {
+        width: 20px !important;
+    }
+    .data {
+        font-size: 7px !important;
+        height: 27vh !important ;
+        padding-left: 0 !important;
+        margin-top: 37px !important;
+    }
+    .dataLeft {
+        margin-top: 5% !important;
+        margin-left: 5% !important;
+    }
+    .dataLeft p {
+        margin: 5px 0px !important;
+    }
+    .dataMid {
+        margin: 0 !important;
+    }
+    .dataMid i {
+        font-size: 41px !important;
+        margin:0 !important;
+    }
+    .dataMid h3,p {
+        margin: 0 !important;
+    }
+    .dataRight {
+        margin: 0px 10px !important;
+    }
+    .dataRight i {
+        margin: 0 !important;
+        font-size: 34px !important;
+        padding: 4px !important;
+    }
+    .dataRight h3,p {
+        margin: 0 !important;
+    }
+    .submita {
+        margin:  5% 0!important;
+        align-items: center !important;
+    }
+    .stay {
+        max-width: 52% !important;
+        margin: 0 !important;
+        font-size: 7px !important;
+    }
+    .emailSub {
+        max-width: 48% !important;
+    }
+    .inputWrapper {
+        width: 100% !important;
+        height: 24px !important;
+    }
+    .inputBut {
+        width: 100% !important;
+        height: 24px!important;
+        padding:0 !important;
+    }
+    .butWrap {
+        top:0px !important;
+        right: 0 !important;
+    }
+}
+@media (min-width: 1113px) {
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .row.sm-gutter .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .l-0 {
+        display: none;
+    }
+    .l-1,
+    .l-2,
+    .l-2-4,
+    .l-3,
+    .l-4,
+    .l-5,
+    .l-6,
+    .l-7,
+    .l-8,
+    .l-9,
+    .l-10,
+    .l-11,
+    .l-12 {
+        display: block;
+    }
+    .l-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .l-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .l-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .l-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .l-4 {
+        flex: 1 0 33.33333%;
+        max-width: 31.33333%;
+    }
+    .l-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .l-6 {
+        flex: 0 0 43%;
+        max-width: 50%;
+    }
+    .l-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .l-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .l-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .l-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .l-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .l-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .l-o-1 {
+        margin-left: 8.33333%;
+    }
+    .l-o-2 {
+        margin-left: 13.66667%;
+    }
+    .l-o-3 {
+        margin-left: 25%;
+    }
+    .l-o-4 {
+        margin-left: 33.33333%;
+    }
+    .l-o-5 {
+        margin-left: 41.66667%;
+    }
+    .l-o-6 {
+        margin-left: 50%;
+    }
+    .l-o-7 {
+        margin-left: 58.33333%;
+    }
+    .l-o-8 {
+        margin-left: 66.66667%;
+    }
+    .l-o-9 {
+        margin-left: 75%;
+    }
+    .l-o-10 {
+        margin-left: 83.33333%;
+    }
+    .l-o-11 {
+        margin-left: 91.66667%;
+    }
+}
+.Tech img {
+    max-height: 70px;
+    max-width: 70px;
+}
+.Tech p {
+    opacity: 0.9;
+    margin: 26px;
+}
+.Tech {
+   background-color: #0f66dc;
+   border-radius: 10px;
+   max-height: 300px;
+   margin:   -45px  30px;
+   color:white;
+   padding: 24px;
+   text-align: center;
+   font-size: 14px;
+   line-height: 1.6;
+}
+.left img {
+    color:#0f66dc;
+    width:60px;
+    height:60px;
+    pointer-events: none;
+}
+.left p {
+    opacity: 0.5;
+    margin: 26px;
+}
+.left {
+    background-color: white;
+    bottom: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   max-height: 300px;
+   padding: 14px;
+   text-align: center;
+   line-height: 1.6;
+}
+.right img {
+    width:60px;
+    height:60px;
+}
+.right p {
+    opacity: 0.5;
+    margin: 26px;
+}
+.right {
+    background-color: white;
+    bottom: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+   border-radius: 10px;  
+   max-height: 300px;  
+   padding: 7px;
+   text-align: center; 
+   line-height: 1.6;
+}
+.midNot {
+    padding-top: 20px;
+    max-width: 352px;
+    border-radius: 10px;
+    padding-bottom: 100px;
+    background-color: rgb(226, 249, 249);
+}
+.leftNot {
+    padding-top: 20px;
+    max-width: 352px;
+    max-height: 295px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    margin-right: -7%;
+}
+.rightNot {
+       padding-top: 20px;
+    max-width: 352px;
+    max-height: 295px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    margin-left: -7%;
+}
+.rightNot img {
+    width:60px;
+    height:60px;
+    margin: 48px 8px;
+}
+.mitNot img 
+{
+    color: blue;
+}
+.midText {
+    text-align: center;
+}
+.head  {
+    background-image: url('../Images/header-background.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    width: auto;
+    height: 100vh; 
+    margin-bottom: 150px;
+}
+.header {
+    height: 100%;
+    margin-left: 3%;
+}
+.logo {
+    margin-left: 15%;
+    margin-top: 3%;
+    max-width: 100px;
+}
+.bars {
+    margin-left: 61%;
+    margin-top: 3%;
+    max-width: 100px;
+}
+.modern {
+    margin-top: 200px;
+    max-width: 73% ;
+    text-align: center;
+}
+.OverView {
+   margin-top: 78px;
+    text-align: center;
+}
+.numPlus {
+    color:#0f66dc;
+    font-size: 75px;
+    margin: 10px 30px 0px 10px;
+}
+.weHelp {
+    font-size: 15px;
+}
+.layer2 img  {
+    width: 100%;
+    height: 100%;
+}
+.redefine {
+    margin-top: 190px;  
+}
+.redBut {
+    margin-top: 62px;
+    margin-left: 12%;
+    margin-right: 30px;
+    max-width: 482px 
+}
+.butLong {
+    margin: 20px; 
+    border-radius: 40px;
+    background-color: #0f66dc;
+    color: white;
+    font-weight: bold;
+    width: 190px;
+    height: 70px;
+    border: none;
+}
+.getWhite {
+    background-color: white !important;
+    color: blue !important;
+}
+.logoMul {
+    text-align: center;
+    margin: 81px 10% 21px 10%;
+    padding: 100px 20px;
+}
+.logoMul img  {
+    width: 80px;
+    height: 80px;
+}
+.newTech {
+    background-color: rgb(236, 253, 255);
+}
+.newTech img {
+    width: 100%;
+    height: 544px;
+}
+.newTech h3 {
+    color: blue;
+}
+.getLeft {
+    margin-left: -20%;
+}
+.newTechChi {
+    margin-top: 10%;
+    margin-left: 9%;
+    font-size: 20px;
+    max-width: 481px;
+    word-wrap: break-word;
+    line-height: 1.5; 
+}
+.newTechChi p { 
+    padding-bottom: 20px;
+}
+.notS {
+    margin-top: 58px;
+    justify-content:space-evenly;
+}
+.buttonMid {
+    text-align: center;
+}
+.ButtonCi {
+    margin-top: -30px;
+    width: 50px;
+    height: 50px;
+    background-color:  #0f66dc;
+    border-radius: 60px;
+   color: white;
+   font-size: 20px;
+}
+.lastLeft img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 2px 0px 7px;
+}
+.lastMid img {
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+}
+.lastRight img {
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+}
+.lastest {
+    align-items: center;
+    margin: 160px 20px 40px 20px;
+}
+.laste {
+    margin-top: 120px;
+    background-color: rgb(236, 253, 255);
+}
+.data {
+    align-items: center;
+    background-image: url('../Images/Circle.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 55vh; 
+    padding-left: 140px;
+    margin-top: 70px;
+}
+.dataLeft {
+    color: white;
+}
+.dataMid {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 11px;
+}
+.dataRight {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 11px;
+}
+.inputWrapper {
+    display: inline-block;
+    position: relative;
+}
+.inputBut {
+    width: 400px;
+    height: 70px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+}
+.inputBut::placeholder {
+    position: absolute; 
+    left: 16px; 
+    font-size: 15px; 
+}
+.submita {
+    margin: 69px 10px;
+}
+.footer {
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color:black;
+    height: 125px;
+}
+.icon {
+    pointer-events: none;
+}
+.icon i{
+    margin: 6px;   
+}
+.logoFoot {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.getblue {
+    background-color: rgb(236, 253, 255);
+    color: blue;
+}
+.asianman {  
+    margin-right:60px ;
+}
