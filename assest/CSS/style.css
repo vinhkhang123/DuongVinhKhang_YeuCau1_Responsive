@@ -538,6 +538,14 @@
         top:0px !important;
         right: 0 !important;
     }
+    .footer {
+        font-size: 7px !important;
+        justify-content: space-around !important;
+    }
+    .logoFoot {
+        font-size: 15px !important;
+        margin: 10% 0 !important;
+    }
 }
 @media (min-width: 1113px) {
     .row {
