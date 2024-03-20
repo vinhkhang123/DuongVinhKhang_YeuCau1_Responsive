@@ -125,7 +125,9 @@
         margin-top: 25px !important;
         width: 50px !important;
         height: 170px !important;
-        font-size:11px  !important;
+        font-size: 9px !important;
+        padding: 0 !important;
+        margin-left: 15% !important;
     }
     .left p {
         margin: 0 !important;
@@ -133,8 +135,9 @@
     .right {
         width: 50px !important;
         height: 160px !important;
-        font-size:11px  !important;
+        font-size: 9px !important;
         margin-top: 25px !important;
+        padding: 0 !important;
     }
     .right p {
         margin: 0 !important;
@@ -144,7 +147,7 @@
         padding: 0px !important;
         width: 50px !important;
         height: 160px !important;  
-        font-size:11px  !important;
+        font-size: 9px !important;
     }
     .Tech p {
         margin: 0px!important;
@@ -229,9 +232,11 @@
         max-width: 164px !important;
          margin-right: 0 !important;
          margin-bottom: 24px !important;
+         font-size: 11px !important;
     }
     .midNot {
         padding-bottom: 27px !important;
+        font-size: 11px !important;
     }
     .buttonMid {
         max-width: 164px !important;
@@ -241,6 +246,7 @@
         max-width: 164px !important;
         margin-left: 0 !important;
         margin-bottom: 24px !important;
+        font-size: 11px !important;
     }
     .lastest {
         margin: 67px 0px 40px 0px !important;
@@ -294,6 +300,15 @@
         justify-content: space-around;
         height: 100px !important;
     }
+    .project h2 {
+        margin: 10px 0px !important;
+    }
+    .plat h2 {
+        margin: 10px 0px !important;
+    }
+    .expe h2 {
+        margin: 10px 0px !important;
+    }
 }/*------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 46.1875em) {
     .wide {
@@ -342,6 +357,8 @@
         height: 150px !important;
         font-size:7px  !important;
         line-height: 1.2 !important;
+        padding: 0 !important;
+        margin-left: 10% !important;
     }
     .left p {
         margin: 0 !important;
@@ -351,7 +368,7 @@
         height: 150px !important;
         font-size:7px  !important;
         margin-top: 25px !important;
-        padding: 14px !important;
+        padding: 0 !important;
         line-height: 1.2 !important;
     }
     .right p {
@@ -404,7 +421,7 @@
     .redBut {
         max-width: 50% !important;
         margin: 0 !important;
-        font-size: 7px !important;
+        font-size: 6px !important;
         line-height: 1.6 !important; 
     }
     .butLong {
@@ -454,10 +471,12 @@
          margin-right: 0 !important;
          padding-bottom: 17px !important;
          height: 100% !important;
+         font-size: 7px !important;
     }
     .midNot {
         height: 100% !important;
         padding-bottom: 23px !important;
+        font-size: 7px !important;
     }
     .buttonMid {
         margin: 0px 2% !important;
@@ -469,6 +488,7 @@
         margin-bottom: 0 !important;
         padding-bottom: 17px !important;
         height: 100% !important;
+        font-size: 7px !important;
     }
     .ButtonCi {
         width: 25px !important;
@@ -508,6 +528,7 @@
     }
     .dataMid {
         margin: 0 !important;
+        padding: 0px 9px 14px !important;
     }
     .dataMid i {
         font-size: 41px !important;
@@ -518,6 +539,7 @@
     }
     .dataRight {
         margin: 0px 10px !important;
+        padding: 0px 9px 14px !important;
     }
     .dataRight i {
         margin: 0 !important;
@@ -560,6 +582,19 @@
     .logoFoot {
         font-size: 15px !important;
         margin: 10% 0 !important;
+    }
+    .project h2 {
+        margin: 5px 0px !important;
+    }
+    .plat h2 {
+        margin: 5px 0px !important;
+    }
+    .expe h2 {
+        margin: 5px 0px !important;
+    }
+    .ButtonCi2 {
+        width: 25px !important;
+        height: 25px !important;
     }
 }
 @media (min-width: 1113px) {
@@ -622,7 +657,7 @@
         max-width: 41.66667%;
     }
     .l-6 {
-        flex: 0 0 43%;
+        flex: 0 0 50%;
         max-width: 50%;
     }
     .l-7 {
@@ -689,12 +724,12 @@
 }
 .Tech p {
     opacity: 0.9;
-    margin: 26px;
+    margin: 5px;
 }
 .Tech {
    background-color: #0f66dc;
    border-radius: 10px;
-   max-height: 300px;
+   max-height: 243px;
    margin:   -45px  30px;
    color:white;
    padding: 24px;
@@ -710,17 +745,18 @@
 }
 .left p {
     opacity: 0.5;
-    margin: 26px;
+    margin: 5px;
 }
 .left {
     background-color: white;
     bottom: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
    border-radius: 10px;
-   max-height: 300px;
+   max-height: 243px;
    padding: 14px;
    text-align: center;
    line-height: 1.6;
+   margin-left: 19%;
 }
 .right img {
     width:60px;
@@ -728,42 +764,44 @@
 }
 .right p {
     opacity: 0.5;
-    margin: 26px;
+    margin: 5px;
 }
 .right {
     background-color: white;
     bottom: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
    border-radius: 10px;  
-   max-height: 300px;  
+   max-height: 243px;
    padding: 7px;
    text-align: center; 
    line-height: 1.6;
 }
 .midNot {
     padding-top: 20px;
-    max-width: 352px;
+    max-width: 319px;
+    max-height: 243px;
     border-radius: 10px;
     padding-bottom: 100px;
     background-color: rgb(226, 249, 249);
+    font-size: 15px;
 }
 .leftNot {
     padding-top: 20px;
-    max-width: 352px;
-    max-height: 295px;
+    max-width: 319px;
+    max-height: 243px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    letter-spacing: 1px;
     margin-right: -7%;
+    font-size: 15px;
 }
 .rightNot {
        padding-top: 20px;
-    max-width: 352px;
-    max-height: 295px;
+       max-width: 319px;
+       max-height: 243px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    letter-spacing: 1px;
     margin-left: -7%;
+    font-size: 15px;
 }
 .rightNot img {
     width:60px;
@@ -783,12 +821,15 @@
     background-size: cover; 
     background-position: center; 
     width: auto;
-    height: 100vh; 
+    height: 111vh; 
     margin-bottom: 150px;
 }
 .header {
+    padding: 0% ;
     height: 100%;
-    margin-left: 3%;
+    margin-left: 0%;
+    width: 100%;
+    
 }
 .logo {
     margin-left: 15%;
@@ -848,6 +889,7 @@
     text-align: center;
     margin: 81px 10% 21px 10%;
     padding: 100px 20px;
+    
 }
 .logoMul img  {
     width: 80px;
@@ -860,22 +902,21 @@
     width: 100%;
     height: 544px;
 }
-.newTech h3 {
+.newTech h2 {
     color: blue;
 }
 .getLeft {
     margin-left: -20%;
 }
 .newTechChi {
-    margin-top: 10%;
-    margin-left: 9%;
+    margin-top: 5%;
     font-size: 20px;
-    max-width: 481px;
+    max-width: 42%;
     word-wrap: break-word;
     line-height: 1.5; 
 }
 .newTechChi p { 
-    padding-bottom: 20px;
+    padding:20px 0px;
 }
 .notS {
     margin-top: 58px;
@@ -934,19 +975,21 @@
     border-radius: 10px;
     max-width: 350px;
     margin: 11px;
+    padding: 0px 19px 20px;
 }
 .dataRight {
     background-color: white;
     border-radius: 10px;
     max-width: 350px;
     margin: 11px;
+    padding: 0px 19px 20px;
 }
 .inputWrapper {
     display: inline-block;
     position: relative;
 }
 .inputBut {
-    width: 400px;
+    width: 476px;
     height: 70px;
     padding: 15px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -974,7 +1017,7 @@
     margin: 6px;   
 }
 .logoFoot {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 5px;
 }
 .getblue {
@@ -983,4 +1026,13 @@
 }
 .asianman {  
     margin-right:60px ;
+}
+.ButtonCi2 {
+    margin-top: -30px;
+    width: 35px;
+    height: 35px;
+    background-color:  #000000;
+    border-radius: 60px;
+   color: white;
+   font-size: 20px;
 }
