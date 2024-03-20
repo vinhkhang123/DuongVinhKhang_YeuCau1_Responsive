@@ -92,10 +92,10 @@
     }
     .head {
         width: 100%  !important;
-        height: 474px !important;
+        height: 43vh !important;
     }
     .menu {
-        margin-top: 5%;
+        margin-top: 1%;
         width: 100%;
         flex-wrap:unset !important;
         position:absolute !important;
@@ -104,13 +104,12 @@
     .header {
         height: 80% !important ;
        margin-top: 6% !important;
-       margin-left:5% !important;
     }
     .logo {
-        margin-left: 2% !important;
+        margin-left: 7% !important; 
        }
     .bars {
-        margin-left:79% !important;
+        margin-left:70% !important;
     }
     .logo img {
         width: 50px !important;
@@ -119,7 +118,7 @@
         width: 15px !important;
     }
     .empty {
-        height: 385px !important;
+        height: 33vh !important;
      }
     .left {
         margin-top: 25px !important;
@@ -185,8 +184,8 @@
         margin-top: 50px !important;
     }
     .redBut {
-        max-width: 50% !important;
-        margin: 0 !important;
+        max-width: 40% !important;
+        margin: 10px 35px !important;
         font-size: 14px !important;
     }
     .butLong {
@@ -275,7 +274,7 @@
         height: 350px !important; 
    }
    .dataLeft {
-        font-size: 11px;
+        font-size: 12px;
    }
    .submita {
          margin: 4% 0% !important;
@@ -333,8 +332,10 @@
     .header {
         height: 80% !important ;
        margin-top: 6% !important;
-       margin-left:4% !important;
-       
+       margin-left:0% !important;
+    }
+    .header h3 {
+        font-size: 10px !important;
     }
     .logo {
         margin-left: 2% !important;
@@ -353,19 +354,28 @@
      }
     .left {
         margin-top: 25px !important;
-        width: 50px !important;
-        height: 150px !important;
+        max-width: 25% !important;
+        height: 135px !important;
         font-size:7px  !important;
         line-height: 1.2 !important;
         padding: 0 !important;
-        margin-left: 10% !important;
+        margin-left: 8% !important;
     }
     .left p {
         margin: 0 !important;
     }
+    .leftNot i {
+        font-size: 60px !important;
+    }
+    .rightNot i {
+        font-size: 60px !important;
+    }
+    .midNot img {
+        width: 60px !important;
+    }
     .right {
-        width: 50px !important;
-        height: 150px !important;
+        max-width: 25% !important;
+        height: 135px !important;
         font-size:7px  !important;
         margin-top: 25px !important;
         padding: 0 !important;
@@ -376,12 +386,12 @@
     }
     .Tech {
         margin: 9px 15px 0px 15px !important;
-        padding: 8px !important;
+        padding: 8px 0px !important;
         font-size: 10px !important;
-        width: 50px !important;
-        height: 150px !important;
+        max-width: 25% !important;
+        height: 135px !important;
         font-size:7px  !important;
-        line-height: 1.2 !important;
+        line-height: 1 !important;
     }
     .Tech p {
         margin: 0 !important;
@@ -424,8 +434,11 @@
         font-size: 6px !important;
         line-height: 1.6 !important; 
     }
+    .redBut p {
+        padding: 10px 0px !important;
+    }
     .butLong {
-        width: 68px !important;
+        width: 82px !important;
         height: 24px !important;
         margin: 0 !important;
         padding: 4px 20px !important;
@@ -436,8 +449,8 @@
         padding: 0px !important;
     }
     .logoMul img {
-        width: 50px !important;
-        height: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
     }
     .newTech {
         margin-bottom: 5% !important;
@@ -448,8 +461,12 @@
     }
     .newTechChi {
         margin-left: 0 !important;
-        font-size: 9px !important;
+        font-size: 7px !important;
         margin-bottom: 5% !important;
+        line-height: 1 !important;
+    }
+    .newTechChi  p {
+        padding: 10px 0px !important;
     }
     .asianman {
         margin: 0 !important;
@@ -466,6 +483,10 @@
         font-size: 7px !important;
         margin-top: 25px !important;
     }
+    .notS h3 {
+        font-size: 10px !important;
+        margin: 1px 0px !important;
+    }
     .leftNot {
         max-width: 120px !important;
          margin-right: 0 !important;
@@ -475,7 +496,7 @@
     }
     .midNot {
         height: 100% !important;
-        padding-bottom: 23px !important;
+        padding-bottom: 18px !important;
         font-size: 7px !important;
     }
     .buttonMid {
@@ -526,6 +547,9 @@
     .dataLeft p {
         margin: 5px 0px !important;
     }
+    .dataLeft h1 {
+        font-size: 9px !important;
+    }
     .dataMid {
         margin: 0 !important;
         padding: 0px 9px 14px !important;
@@ -548,6 +572,7 @@
     }
     .dataRight h3,p {
         margin: 0 !important;
+        padding: 0px !important;
     }
     .submita {
         margin:  5% 0!important;
@@ -585,12 +610,15 @@
     }
     .project h2 {
         margin: 5px 0px !important;
+        font-size: 10px !important;
     }
     .plat h2 {
         margin: 5px 0px !important;
+        font-size: 10px !important;
     }
     .expe h2 {
         margin: 5px 0px !important;
+        font-size: 10px !important;
     }
     .ButtonCi2 {
         width: 25px !important;
@@ -871,6 +899,7 @@
     margin-right: 30px;
     max-width: 482px 
 }
+
 .butLong {
     margin: 20px; 
     border-radius: 40px;
@@ -945,7 +974,7 @@
     margin: 2px;
 }
 .lastRight img {
-    width: 100%;
+    width: 94%;
     height: 100%;
     margin: 2px;
 }
@@ -1012,6 +1041,7 @@
 }
 .icon {
     pointer-events: none;
+    margin: 1%;
 }
 .icon i{
     margin: 6px;   
