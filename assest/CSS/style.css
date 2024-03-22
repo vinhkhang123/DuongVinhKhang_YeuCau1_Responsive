@@ -315,13 +315,15 @@
 }/*------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 46.1875em) {
     .wide {
-        width: 100%;
-        
+        width: 100%;    
     }
     body{
         padding: 0;
         margin: 0;
         width: auto;
+    }
+    .arSlider {
+        display: block !important;
     }
     .head {
         width: 100%  !important;
@@ -335,8 +337,8 @@
     }
     .header {
         height: 80% !important ;
-       margin-top: 6% !important;
        margin-left:0% !important;
+       display: block;
     }
     .header h3 {
         font-size: 10px !important;
@@ -354,19 +356,25 @@
         width: 15px !important;
     }
     .empty {
-        height: 164px !important;
+        height: 181px !important;
      }
     .left {
         margin-top: 25px !important;
-        max-width: 25% !important;
-        height: 135px !important;
-        font-size:7px  !important;
+        max-width: 84% !important;
+        height: 166px !important;
+        font-size:14px  !important;
         line-height: 1.2 !important;
         padding: 0 !important;
         margin-left: 8% !important;
     }
+    .left h3 {
+        font-size: 14px !important;
+    }
     .left p {
         margin: 0 !important;
+    }
+    .left i {
+        font-size: 34px !important;
     }
     .leftNot i {
         font-size: 60px !important;
@@ -378,27 +386,41 @@
         width: 60px !important;
     }
     .right {
-        max-width: 25% !important;
-        height: 135px !important;
-        font-size:7px  !important;
-        margin-top: 25px !important;
+        max-width: 84% !important;
+        height: 166px !important;
+        font-size:14px  !important;
+        margin:  25px 0 0 8% !important;
         padding: 0 !important;
         line-height: 1.2 !important;
     }
     .right p {
         margin: 0 !important;
     }
+    .right h3 {
+        font-size: 14px !important;
+    }
+
+    .right i {
+        font-size: 34px !important;
+    }
     .Tech {
-        margin: 9px 15px 0px 15px !important;
-        padding: 8px 0px !important;
-        font-size: 10px !important;
-        max-width: 25% !important;
-        height: 135px !important;
-        font-size:7px  !important;
+        margin: 26px 15px 0px 8% !important;
+        padding: 0px 0px !important;
+        max-width: 84% !important;
+        height: 166px !important;
+        font-size:14px  !important;
         line-height: 1 !important;
     }
     .Tech p {
         margin: 0 !important;
+        font-size:14px  !important;
+    }
+    .Tech h3 {
+        font-size: 14px !important;
+    }
+
+    .Tech i {
+        font-size: 34px !important;
     }
     .c-4 {
         flex: 0 0 28.33333%;
@@ -421,7 +443,18 @@
     .OverView {
         margin-top: 20px !important;
         font-size: 7px !important;
-        justify-content: space-around !important;
+        display: block !important;
+    }
+    .expe {
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+    .project {
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+    .plat {
+        max-width: 100% !important;
     }
     .numPlus {
         font-size: 20px !important;
@@ -1072,4 +1105,7 @@
 }
 .logoFo {
     padding-left: 8%;
+}
+.arSlider {
+    display: none;
 }

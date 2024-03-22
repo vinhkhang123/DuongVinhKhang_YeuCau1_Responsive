@@ -27,21 +27,20 @@
       <div class="row"><div class="empty"style="width:100%;height:95vh;"></div></div>
       
       <div class="header row">
-        
-        <div class="left col l-4 m-12 c-4" style="max-width: 21%;font-size: 12px; ">
+        <div class="left slider col l-4 m-12 c-4" style="max-width: 21%;font-size: 12px; ">
         
           <i class="iconHead fas fa-project-diagram" style="color:#0f66dc;font-size:50px;margin-top:15px;"></i>
           <h3 style="margin: 10px;">Strategy</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua</p>
           <b><a href="#" style="text-decoration: none;">Learn More</a></b>
         </div>
-        <div class="Tech col l-4 m-12 c-4" style="max-width: 21%;font-size: 12px; ">
+        <div class="Tech slider col l-4 m-12 c-4" style="max-width: 21%;font-size: 12px; ">
           <i class="iconHead space fa fa-microchip" aria-hidden="true" style="font-size:50px; margin-top:15px;"></i>
           <h3 style="margin: 10px;">Technology</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua</p>
           <b><a href="#" style="text-decoration: none; color:white;">Learn More</a></b>
         </div>
-        <div class="right col l-4 m-12 c-4" style="max-width: 21%;font-size: 12px; ">
+        <div class="right slider col l-4 m-12 c-4" style="max-width: 21%;font-size: 12px; ">
           <i class="iconHead fa-solid fa-handshake-angle"style="color:#0f66dc;font-size:50px;margin-top:15px;"></i>
           <h3 style="margin: 10px;">Consulting</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua</p>
@@ -266,5 +265,22 @@
       </div>
 
      </div>
+     <script>
+      var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("slider");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1} 
+          x[slideIndex-1].style.display = "block"; 
+          setTimeout(carousel, 5000); 
+        }
+      </script>
+      
   </body>
 </html>
