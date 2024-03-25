@@ -361,7 +361,7 @@
     .left {
         margin-top: 25px !important;
         max-width:70% !important;
-        height: 166px !important;
+        max-height: 100% !important;
         font-size:12px  !important;
         line-height: 1.2 !important;
         padding: 0 !important;
@@ -388,7 +388,7 @@
     }
     .right {
         max-width: 70% !important;
-        height: 166px !important;
+        max-height: 100% !important;
         font-size:12px  !important;
         margin:  25px 0 0 15% !important;
         padding: 0 !important;
@@ -409,7 +409,7 @@
         margin: 26px 15px 0px 15% !important;
         padding: 0px 0px !important;
         max-width: 70% !important;
-        height: 166px !important;
+        max-height: 100% !important;
         font-size:12px  !important;
         line-height: 1 !important;
     }
@@ -441,10 +441,11 @@
         font-size: 5px !important;
     }
     .modern h2 {
-        font-size: 14px;
+        font-size: 10px;
     }
     .modern h5 {
         margin-top: 3% !important;
+        font-size: 6px !important;
     }
     .OverView {
         margin-top: 20px !important;
@@ -501,15 +502,18 @@
         font-size: 10px !important;
     }
     .logoMul {
-        margin: 30px 0px !important;
+        margin: 20px 15% !important;
         padding: 0px !important;
     }
     .logoMul img {
-        width: 40px !important;
-        height: 40px !important;
+        width: 30px !important;
+        height: 30px !important;
     }
     .newTech {
         margin-bottom: 5% !important;
+    }
+    .newTech h2 {
+        font-size: 12px ;
     }
     .newTech img {
         width: 100% !important;
@@ -524,7 +528,7 @@
     }
     .newTechChi  p {
         padding: 10px 0px !important;
-        font-size: 12px;
+        font-size: 10px;
     }
     .asianman {
         margin: 0 !important;
@@ -541,33 +545,38 @@
         justify-content: space-around !important;
         font-size: 7px !important;
         margin-top: 25px !important;
+        max-height: 102% !important;
     }
     .notS h3 {
-        font-size: 10px !important;
+        font-size: 14px !important;
         margin: 1px 0px !important;
     }
+    .notS p {
+        font-size: 10px !important;
+    }
     .leftNot {
-        max-width: 120px !important;
+        max-width: 70% !important;
          margin-right: 0 !important;
          padding-bottom: 17px !important;
-         height: 100% !important;
+         max-height: 98% !important;
          font-size: 7px !important;
     }
     .midNot {
-        height: 100% !important;
+        max-height: 100% !important;
         padding-bottom: 18px !important;
         font-size: 7px !important;
+      
     }
     .buttonMid {
-        margin: 0px 2% !important;
-        height: 100% !important;
+        margin: 0px 0% !important;
+        max-width: 67% !important;
     }
     .rightNot {
-        max-width: 120px !important;
+        max-width: 70% !important;
         margin-left: 0 !important;
         margin-bottom: 0 !important;
         padding-bottom: 17px !important;
-        height: 100% !important;
+        max-height: 98% !important;
         font-size: 7px !important;
     }
     .ButtonCi {
@@ -578,20 +587,37 @@
         margin-top: 5% !important;
     }
     .lastest {
-        margin: 0px 2px!important;
+        margin: 2% 0px!important;
+        max-width: 100% !important;
     }
     .lastLeft {
-        margin-left: 2% !important;
+        margin:  0 !important;
+        padding: 0 !important;
+    }
+    .lastLeft img {
+        max-width: 305px !important;
+        max-height: 204px !important;
+        margin:  0 !important;
+        padding: 0 !important;
     }
     .lastRight img {
-        width: 92% !important;
+        max-width: 305px !important;
+        max-height: 204px !important;
         margin:  0 !important;
+        width: 100% !important;
     }
     .lastMid img {
-        margin: 0px 5px 0px 3px !important;
+        max-width: 305px !important;
+        max-height: 204px !important;
+      margin:  0 !important;
+      padding: 0 !important;
     }
     .arrow1 {
         width: 20px !important;
+       
+    }
+    .arL {
+        margin: 0 2% 0 1% !important;
     }
     .data {
         font-size: 7px !important;

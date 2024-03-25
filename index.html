@@ -148,7 +148,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row ">
         <div class="modern col l-4 m-4 c-12 l-o-2 m-o-4" style="margin-top:119px;">
           <h2>Not sure where to start? We'll work with you to design <br>and implement the right solution</h2>
           <h5 style="margin-top:47px;opacity: 0.5;">Whether you already have an implementation in mind or are just getting<br> started, our technology experts focus on your business goals</h5>
@@ -157,14 +157,14 @@
       
       <div class="notS row">
         
-        <div class="leftNot midText col l-4 m-12 c-4">
+        <div class="leftNot slider3 midText col l-4 m-12 c-8">
           <i class="fa-brands fa-wordpress" style="color:blue;font-size:80px;"></i>
           <h3 style="margin: 10px;">Wordpress</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua</p>
          
         </div>
-        <div class="buttonMid">
-          <div class="midNot midText  col l-4 m-12 c-4">
+        <div class="buttonMid slider3 ">
+          <div class="midNot midText  col l-4 m-12 c-8">
           
             <img src="./assest/Images/icons8-adobe-100.svg" style="pointer-events: none; color:blue;width: 70px;heigh: 70px;">
             <h3 style="margin: 10px;">Technology</h3>
@@ -174,7 +174,7 @@
           <button class="Button2 ButtonCi"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
        
-        <div class="rightNot  midText col l-4 m-12 c-4" >
+        <div class="rightNot slider3  midText col l-4 m-12 c-8" >
          
           <i class="fa-solid fa-s"style="color:blue;font-size:80px;"></i>
           <h3 style="margin: 10px;">Stripe</h3>
@@ -191,23 +191,23 @@
         </div>
 
         <div class="lastest row">
-          <div class="arrow1"style="width: 35px;">
-            <button class="ButtonCi2" style="background-color:black;"> <i class="fa-solid fa-chevron-left"></i> </button>
+          <div class="arrow1 arL"style="width: 35px;">
+            <button class="ButtonCi2" onclick="plusDivs(-1)"  style="background-color:black;"> <i class="fa-solid fa-chevron-left"></i> </button>
            
           </div>
-          <div class="lastLeft col l-4 m-12 c-4">
-          
-            <img src="./assest/Images/modern-stationary-collection-arrangement.png" alt="">
-          </div>
-          <div class="lastMid col l-4 m-12 c-4">
-            <img src="./assest/Images/workplace-business-modern-male-accessories-laptop-white.png" alt="">
-          </div>
-          <div class="lastRight col l-4 m-12 c-4">
-            <img src="./assest/Images/modern-business-desk-with-virtual-reality-headset.png" alt="">
-          
-          </div>
+            <div class="lastLeft slider4  col l-4 m-12 c-10">
+            
+              <img src="./assest/Images/modern-stationary-collection-arrangement.png" alt="">
+            </div>
+            <div class="lastMid slider4 col l-4 m-12 c-10">
+              <img src="./assest/Images/workplace-business-modern-male-accessories-laptop-white.png" alt="">
+            </div>
+            <div class="lastRight slider4 col l-4 m-12 c-10">
+              <img src="./assest/Images/modern-business-desk-with-virtual-reality-headset.png" alt="">
+            
+            </div>
           <div class="arrow1"style="width: 35px;">
-            <button class="ButtonCi2"style="background-color:black;"> <i class="fa-solid fa-chevron-right"></i> </button>
+            <button class="ButtonCi2" onclick="plusDivs(1)" style="background-color:black;"> <i class="fa-solid fa-chevron-right"></i> </button>
           </div>
         </div>
       </div>
@@ -268,13 +268,26 @@
      <script>
       var slideIndex = 0;
       var slideIndex2= 0;
-        carousel();
+      var slideIndex3=0;
+      var slideIndex4 =0;
+      var sliderLast =3;
+      window.addEventListener('resize',function(event){
+        location.reload();
+      })
+      if(window.innerWidth<739)
+      {
+         carousel();
         carousel2();
+        carousel3();
+        showDivs(slideIndex);
+      }
+       
         function carousel() {
+        
           var i;
           var x = document.getElementsByClassName("slider");
           for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none"; 
+           x[i].style.display = "none"; 
           }
           slideIndex++;
           if (slideIndex > x.length) {slideIndex = 1} 
@@ -291,6 +304,35 @@
           if (slideIndex2 > x.length) {slideIndex2 = 1} 
           x[slideIndex2-1].style.display = "block"; 
           setTimeout(carousel2, 7000); 
+        }
+        function carousel3() {
+        
+          var i;
+          var x = document.getElementsByClassName("slider3");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+          }
+          slideIndex3++;
+          if (slideIndex3 > x.length) {slideIndex3 = 1} 
+          x[slideIndex3-1].style.display = "block"; 
+          setTimeout(carousel3, 7000); 
+        }
+
+        
+
+        function plusDivs(n) {
+          showDivs(sliderLast += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("slider4");
+          if (n > x.length) {sliderLast = 1}
+          if (n < 1) {sliderLast = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[sliderLast-1].style.display = "block";  
         }
       </script>
       
