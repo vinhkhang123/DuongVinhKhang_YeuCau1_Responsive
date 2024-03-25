@@ -360,18 +360,19 @@
      }
     .left {
         margin-top: 25px !important;
-        max-width: 84% !important;
+        max-width:70% !important;
         height: 166px !important;
-        font-size:14px  !important;
+        font-size:12px  !important;
         line-height: 1.2 !important;
         padding: 0 !important;
-        margin-left: 8% !important;
+        margin-left: 15% !important;
     }
     .left h3 {
         font-size: 14px !important;
     }
     .left p {
         margin: 0 !important;
+        padding: 6px !important;
     }
     .left i {
         font-size: 34px !important;
@@ -386,15 +387,16 @@
         width: 60px !important;
     }
     .right {
-        max-width: 84% !important;
+        max-width: 70% !important;
         height: 166px !important;
-        font-size:14px  !important;
-        margin:  25px 0 0 8% !important;
+        font-size:12px  !important;
+        margin:  25px 0 0 15% !important;
         padding: 0 !important;
         line-height: 1.2 !important;
     }
     .right p {
         margin: 0 !important;
+        padding: 6px !important;
     }
     .right h3 {
         font-size: 14px !important;
@@ -404,16 +406,16 @@
         font-size: 34px !important;
     }
     .Tech {
-        margin: 26px 15px 0px 8% !important;
+        margin: 26px 15px 0px 15% !important;
         padding: 0px 0px !important;
-        max-width: 84% !important;
+        max-width: 70% !important;
         height: 166px !important;
-        font-size:14px  !important;
+        font-size:12px  !important;
         line-height: 1 !important;
     }
     .Tech p {
         margin: 0 !important;
-        font-size:14px  !important;
+        padding: 6px !important;
     }
     .Tech h3 {
         font-size: 14px !important;
@@ -429,13 +431,17 @@
     .iconHead {
         font-size: 20px !important;
     }
+    .mordernr  {
+        padding-top: 20px;
+        margin-top: 20px !important;
+    }
     .modern {
         margin-top: 0px !important;
         max-width: 100% !important;
-        font-size: 8px !important;
+        font-size: 5px !important;
     }
-    .modern h1 {
-        font-size: 8px !important;
+    .modern h2 {
+        font-size: 14px;
     }
     .modern h5 {
         margin-top: 3% !important;
@@ -457,29 +463,42 @@
         max-width: 100% !important;
     }
     .numPlus {
-        font-size: 20px !important;
+        font-size: 60px !important;
     }
     .weHelp {
-        font-size: 7px !important;
+        font-size: 12px !important;
     }
     .redefine {
         margin-top: 50px !important;
     }
     .redBut {
-        max-width: 50% !important;
-        margin: 0 !important;
-        font-size: 6px !important;
+        max-width: 70% !important;
+        margin: 0 15% !important;
+        font-size: 10px !important;
         line-height: 1.6 !important; 
+    }
+    .redBut h2 {
+        font-size:  14px !important;
+    }
+    .layer2 {
+        max-width: 100% !important;
+        padding: 2% 0 !important;
+    }
+    .c-6 {
+        flex: 0 0 100% !important;
+    }
+    .layer2 img {
+        width: 100% !important;
     }
     .redBut p {
         padding: 10px 0px !important;
     }
     .butLong {
-        width: 82px !important;
+        width: 100px !important;
         height: 24px !important;
         margin: 0 !important;
         padding: 4px 20px !important;
-        font-size: 7px !important;
+        font-size: 10px !important;
     }
     .logoMul {
         margin: 30px 0px !important;
@@ -497,16 +516,19 @@
         height: 100% !important;
     }
     .newTechChi {
-        margin-left: 0 !important;
-        font-size: 7px !important;
+        font-size: 11px !important;
         margin-bottom: 5% !important;
         line-height: 1 !important;
+        max-width: 70% !important;
+        margin-left: 15% !important;
     }
     .newTechChi  p {
         padding: 10px 0px !important;
+        font-size: 12px;
     }
     .asianman {
         margin: 0 !important;
+        max-width: 100%;
     }
     .getLeft {
         margin-left: -3 !important;
@@ -647,15 +669,15 @@
     }
     .project h2 {
         margin: 5px 0px !important;
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
     .plat h2 {
         margin: 5px 0px !important;
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
     .expe h2 {
         margin: 5px 0px !important;
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
     .ButtonCi2 {
         width: 25px !important;
